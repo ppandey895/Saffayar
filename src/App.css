@@ -1,0 +1,23 @@
+.App {
+  background-image: radial-gradient(#555555 10%, rgb(var(--theme)) 10%);
+  background-size: 20px 20px;
+  background-position: 0 0;
+  height: fit-content;
+  width: 100vw;
+}
+
+.highlight {
+    position: relative;
+    z-index: 100;
+}
+
+.highlight::before {
+    z-index: 0;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: rgb(251, 255, 42);
+}
