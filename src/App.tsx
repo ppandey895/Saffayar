@@ -58,13 +58,13 @@ function App() {
       <Divider mb='10' style={{opacity: '0'}}/>
 
       <Flex maxW='80vw' flexDir={isLargerThan700 ? 'row' : 'column'} p='10' h='80%' alignItems='center' justifyContent='center' gap='10'>
-        <Flex alignItems='center' flexDir='column'>
+        <Flex alignItems='center' flexDir='column' width={isLargerThan700 ? '600px' : ''}>
           <Text p='3' color='whiteAlpha.800' fontWeight='300' textAlign='center'>
-          We are <span className='highlight'>Saffayar</span> and our aim is to digitalize your business. Just contact us and we will be more than happy to serve you. Have a great day!
+          Welcome to <span className='highlight'>Saffayar</span> web creation service! We specialize in building beautiful and functional websites for businesses of all sizes. We are committed to helping you achieve your goals. Contact us today to discuss your web design needs and take your business to the next level!
           </Text>
           <Button>Get Started!</Button>
         </Flex>
-        <Box width={isLargerThan700 ? '800px' : '300px'} boxShadow='0 0 30px rgba(0,0,0,0.3)' mt='2' mb='5'>
+        <Box width={isLargerThan700 ? '400px' : '300px'} boxShadow='0 0 30px rgba(0,0,0,0.3)' mt='2' mb='5'>
           <Image borderRadius='3xl' src={workImage} />
         </Box>
       </Flex>
