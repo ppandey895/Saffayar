@@ -40,7 +40,7 @@ function App() {
   return (
     <Flex className="App" flexDir='column' alignItems='center'>
       <Flex flexDir='row' alignItems='center' gap='40vw' justifyContent='space-between' py='4'>
-        <Text fontSize='3xl' fontWeight='500' color='#aaa' textAlign='center'>SAFFAYAR</Text>
+        <Text fontSize='3xl' fontWeight='500' color='#aaa' textAlign='center'>JUGANNU</Text>
         <Menu>
         {({ isOpen }) => (
           <>
