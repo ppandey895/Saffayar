@@ -25,8 +25,8 @@ import './App.css';
 
 function App() {
   const [isLargerThan700] = useMediaQuery('(min-width: 700px)');
-  const serviceRef = useRef(null);
-  const plansRef = useRef(null);
+  const serviceRef = useRef<HTMLDivElement>(null);
+  const plansRef = useRef<HTMLDivElement>(null);
   
   const handleServiceRef = () => {
     window.scrollTo({
